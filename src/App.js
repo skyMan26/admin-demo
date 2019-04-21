@@ -9,8 +9,8 @@ class App extends Component {
       <div className="App">
 <Admin dataProvider={dataProvider}>
 <Resource name ="users" list={ListGuesser}/>
-<Resource name ="ufg" list={ListGuesser}/>
-<Resource name ="sd" list={ListGuesser}/>
+<Resource name ="tenants " list={ListGuesser}/>
+<Resource name ="owners" list={ListGuesser}/>
 </Admin>
       </div>
     );
